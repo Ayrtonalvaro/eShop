@@ -1,14 +1,13 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
 
+import './App.css';
+import  Header  from './components/Header';
 function App() {
-  const [count, setCount] = useState(0);
 
 
   return (
     <div className="App">
-      
+      <Header />
+      <p className='flex justify-center mt-10 uppercase font-bold text-6xl'>Shop estore</p>
     </div>
   );
 }

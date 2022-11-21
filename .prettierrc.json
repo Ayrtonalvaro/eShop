@@ -1,7 +1,7 @@
 {
     "singleQuote":true,
     "trailingComma": "none",
-    "endOfLine": "auto",
+    "endOfLine": "crlf",
     "tabWidth": 2,
     "bracketSpacing": false,
     "arrowParens": "always"
